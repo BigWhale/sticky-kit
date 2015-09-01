@@ -197,6 +197,7 @@
                 spacer.append(elm);
               }
             }
+            last_scroll_height = doc.height();
             elm.trigger("sticky_kit:stick");
           }
         }
